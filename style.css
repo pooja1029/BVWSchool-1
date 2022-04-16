@@ -1,0 +1,336 @@
+.main{
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  .menu{
+      color:black;
+  }
+  .dropdown-item{
+      font-size: 12px;
+      font-weight: bold;
+  }
+  .dropdown-item:hover{
+    color: black;
+    background-color: darkgrey;
+    padding :10px;
+}
+#color{
+    background-color: rgba(231, 180, 10, 0.9);
+    
+    
+}
+#navbarDropdown{
+    color: white;
+}
+#navcol{
+    color: white;
+}
+#image{
+    opacity: 0.5;
+    
+    
+}
+  #rel{
+      position: relative;
+  }
+  #abs{
+      position: absolute;
+      top: 50px;
+      left: 100px;
+  }
+  #paragraph{
+    font-family: Arial,sans-serif;
+    color:  #44043f; 
+    font-weight: 550;
+
+   
+    
+  }
+  @media screen and (max-width: 600px) {
+    #paragraph{
+     width:300px;
+     font-size: 15px;
+     
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h3{
+     width:330px;
+    
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #image{
+     height: 1350px;
+     
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #abs{
+     width:200px;
+
+     
+      
+    }
+  }
+ #btn{
+     background-color: #46045a;
+     color: aliceblue;
+     font-weight: bold;
+ }
+ #form{
+     border : 2px solid rgb(235, 223, 223);
+     height: 400px;
+     width: 370px;
+     padding: 20px;
+     margin-left: 100px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ #name{
+     width: 250px;
+ }
+ @media screen and (max-width: 600px) {
+    #form{
+     width:250px;
+height: 450px;
+float: right;
+      
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #bvws{
+     width:150px;
+     border-radius: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #name{
+     width:150px;
+           
+    }
+  }
+  #announ{
+    background-image: linear-gradient(to bottom right, #C33764 , #1D2671);
+    
+  }
+  #feat{
+   border:2px solid rgb(238, 247, 247);
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ padding:20px;
+ text-shadow: 2px 2px 3px #000000;
+
+  }
+  #cad{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-sm:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .card-sm{
+    border: 1px solid rgb(190, 243, 227);
+  }
+  #disp{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-img-top{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  .card-img-top1{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+  #disp1{
+    border: 0px solid rgb(211, 219, 243);
+    border-bottom: 8px solid rgb(233, 171, 2);
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 3px rgb(127, 138, 168);
+    width: 500px;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    #txt{
+      width:auto;
+           
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #disp{
+     
+      display: block;
+     
+      float: left;
+     
+           
+    }
+  } 
+  @media screen and (max-width: 600px) {
+    #cad{
+     
+      display: block;
+     
+           
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #disp1{
+     
+    
+   width: 400px;
+    margin-bottom: 20px;
+     
+           
+    }
+  }
+ 
+
+  #disp2{
+    border: 1px solid rgb(211, 219, 243);
+    
+    border-radius: 10px;
+    
+    width: 1000px;
+  }
+  @media screen and (max-width: 600px) {
+    #disp2{
+     
+    
+   width: 400px;
+ 
+     
+           
+    }
+  }
+  #footer{
+    background-color: #01041b;
+    height: 500px;
+    position: relative;
+  }
+  
+  #footer1{
+    /* position: absolute;
+    top: 70px;
+    left: 70px; */
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 15px;
+  padding: 40px;
+  }
+  #footer2{
+    /* position: absolute;
+    top: 70px;
+    left: 600px; */
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 40px;
+    padding-right: 40px;
+  }
+  #footer3{
+    /* position: absolute;
+    top: 70px;
+    left: 950px; */
+    color: aliceblue;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 40px;
+  
+  }
+  #footer4{
+    /* position: absolute;
+    top: 400px;
+    left: 100px; */
+    color: aliceblue;
+  }
+  #footer5{
+    /* position: absolute;
+    top: 450px;
+    left: 100px; */
+    color: aliceblue;
+    
+  }
+  #email{
+    text-decoration: none;
+    color: white;
+
+  }
+  #email:hover{
+    color: rgb(233, 143, 7);
+  }
+  
+  @media screen and (max-width: 600px) {
+    #footer{
+     
+    
+  height: 1200px;
+ 
+     
+           
+    }
+  }
+  #back{
+    background-image: url(bvwschool.jpg);
+    position: relative;
+    height: 250px;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+  }
+  #back1{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+  }
+  #back2{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    
+    
+  }
+  @media screen and (max-width: 600px) {
+    #back2{
+  width: 250px;      
+    }
+  }
+  
+  #imagess{
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
